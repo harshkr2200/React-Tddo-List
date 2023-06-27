@@ -1,0 +1,17 @@
+.box {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background-color: black;
+ }
+ 
+ .mini_box {
+   text-align: center;
+   width: 500px;
+   border: 10px solid pink;
+   border-radius: 50px;
+   background-color: burlywood;
+   font-size: 20px;
+   letter-spacing: 1px;
+ }

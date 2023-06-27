@@ -1,0 +1,22 @@
+nav {
+   color: black;
+   width: 80%;
+   margin: 10px auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.item_menu {
+   display: flex;
+   gap: 15px;
+}
+
+.item_menu li {
+   list-style: none;
+   font-size: 18px;
+}
+
+.time {
+   text-align: center;
+}

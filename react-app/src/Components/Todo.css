@@ -1,0 +1,89 @@
+.todo_box {
+   width: 100%;
+   height: 100vh;
+   background: linear-gradient(yellowgreen, red);
+}
+
+.min_box {
+   width: 60%;
+   margin: 0px auto;
+   background: linear-gradient(blue, #000);
+}
+
+.min_box h2 {
+   margin: 20px 0px;
+   color: wheat;
+   text-align: center;
+}
+
+
+.min_box input {
+   width: 80%;
+   padding: 15px;
+   margin-left: 15px;
+}
+
+
+
+.min_box input::placeholder {
+   text-align: center;
+   font-size: 18px;
+}
+
+.min_box button {
+   padding: 10px 15px;
+   background: linear-gradient(pink, red);
+   color: wheat;
+   font-size: 18px;
+   font-weight: bolder;
+   margin-left: 20px;
+   border: none;
+   border-radius: 10px;
+}
+
+.todo-list {
+   list-style: none;
+}
+
+.list-add-box {
+   width: 60%;
+   margin: 10px auto;
+   background-color: #000;
+}
+
+.list-add-box li {
+   font-size: 20px;
+}
+
+.list-add-box span {
+   color: #fff;
+}
+
+.list-add-box input {
+   padding: 10px;
+   width: 80%;
+   background-color: bisque;
+   border: none;
+}
+
+
+.fa-thumbs-up {
+   font-size: 30px;
+   color: rebeccapurple;
+}
+
+.fa-trash {
+   font-size: 30px;
+   color: red;
+}
+
+.fa-edit {
+   font-size: 30px;
+   color: green;
+}
+
+.todo-list {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
